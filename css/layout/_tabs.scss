@@ -1,0 +1,43 @@
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    @include media-breakpoint-down(md) { 
+        flex-direction: column;
+    }
+}
+ul.tabs li{
+    background: none;
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+    text-align: center;
+    img{
+        height: 60px;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    a{
+        color: #3D3E3E;
+    }
+}
+
+ul.tabs li.current{
+    background: #f6f6f6;
+    color: #222;
+}
+
+.tab-content{
+    display: none;
+    background: #f6f6f6;
+    padding: 20px 30px;
+}
+
+.tab-content.current{
+    display: inherit;
+}

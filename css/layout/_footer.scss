@@ -1,0 +1,24 @@
+.footer{
+    text-align: center;
+
+    &--social{
+        margin-top: 20px;
+
+        a{
+            color: $primaryColor;
+            padding: 5px;
+            border: solid 2px $primaryColor;
+            width: 30px;
+            height: 30px;
+            display: block;
+            text-align: center;
+            line-height: 0;
+            transition: all 300ms;
+            &:hover{
+                border-radius: 30px;
+                background-color: $primaryColor;
+                color: #FFF;
+            }
+        }
+    }
+}

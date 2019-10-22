@@ -1,0 +1,26 @@
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &--item{
+        width: 25%;
+        flex-basis: 25%;
+        overflow: hidden;
+
+        @include media-breakpoint-down(md) { 
+            width: 33.3333%;
+            flex-basis: 33.3333%;
+        }
+        @include media-breakpoint-down(sm) { 
+            width: 50%;
+            flex-basis: 50%;
+        }
+        img{
+            width: 100%;
+            transition: transform 300ms ease;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+    }
+}

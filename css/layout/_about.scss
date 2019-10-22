@@ -1,0 +1,32 @@
+.about{
+    .content{
+        margin-top: 40px;
+        img{
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+
+    .faq{
+        margin-top: 100px;
+
+        #accordion{
+            .card-header{
+                padding: 10px 20px;
+                margin-bottom: 0;
+                background-color: #FFF;
+                border-bottom: 1px solid rgba(167, 167, 167, 0.125);
+                .btn-link{
+                    color: #828282;
+                    text-decoration: none;
+                    padding: 0;
+                } 
+            }
+            .card-body{
+                color: #ACACAC;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
