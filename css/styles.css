@@ -15483,6 +15483,11 @@ label {
   margin: 0 auto;
   align-items: center;
 }
+@media (max-width: 991.98px) {
+  .header--top-column {
+    text-align: center !important;
+  }
+}
 .header--top a {
   color: #949494;
 }
@@ -15564,7 +15569,7 @@ label {
 .header input:checked ~ .header--dmenu li {
   display: block;
 }
-@media (min-width: 768px) {
+@media (max-width: 991.98px) {
   .header--cta {
     margin-top: 20px;
     text-align: center !important;

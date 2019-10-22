@@ -5,7 +5,13 @@
 		.container{
 			margin: 0 auto;
 			align-items: center;
+            
 		}
+        &-column{
+            @include media-breakpoint-down(md){
+                text-align: center !important;
+            }
+        }
 		a{
 			color: #949494;
 		}
@@ -101,7 +107,7 @@
     }
 
     &--cta{
-    	@include media-breakpoint-up(md) { 
+    	@include media-breakpoint-down(md) { 
     		margin-top: 20px;
 			text-align: center !important;
     	}

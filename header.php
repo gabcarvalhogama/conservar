@@ -24,10 +24,10 @@
 		<header class="header">
 			<div class="header--top">
 				<div class="row container">
-					<div class="col-md-6">
+					<div class="col-md-6 header--top-column">
 						<a href="mailto:contato@conservar.com.br">contato@conservar.com.br</a>
 					</div>
-					<div class="col-md-6 text-right">
+					<div class="col-md-6 header--top-column text-right">
 						<a href="tel:+5500000000000">(00) 0 0000-0000</a>
 					</div>
 				</div>
