@@ -38,6 +38,10 @@
 			color: $textColor;
 			padding: 5px 20px;
 		}
+
+        &-cta{
+            
+        }
 	}
 
 	.menu {
@@ -60,6 +64,13 @@
 	    top: 29px;
 	    left: 5px;
 	    transition: 0.5s ease-in-out;
+    }
+    label[for="menu-hamburguer"]{
+        display: none;
+
+        @include media-breakpoint-down(md) { 
+            display: inline-block;
+        }
     }
 
     .hamburguer:before,
@@ -103,13 +114,9 @@
     	display: block;
     	li{
     		display: block;
+            margin-bottom: 10px;
     	}
     }
 
-    &--cta{
-    	@include media-breakpoint-down(md) { 
-    		margin-top: 20px;
-			text-align: center !important;
-    	}
-    }
+    
 }

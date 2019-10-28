@@ -50,3 +50,56 @@
 
 		return $jsonArrayResponse;
 	}
+
+
+
+
+	//response generation function
+    $response = "";
+ 
+    //function to generate response
+    function my_contact_form_generate_response($type, $message){
+        global $response;
+        $response = ($type == "success") ?  "<div class='alert alert-success'>{$message}</div>" : "<div class='alert alert-danger'>{$message}</div>";
+    }
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $cellphone = $_POST['cellphone'];
+    $subjectF = $_POST['subjectF'];
+    $submitted = $_POST["submitted"];
+    //php mailer variables
+    $to = get_option('admin_email');
+    $subjectMail = "Alguém enviou mensagem de ".get_bloginfo('name');
+    $headers = array(
+        'From: '. $email,
+        'Reply-To: ' . $email,
+        'Content-Type: text/html',
+        'charset=UTF-8'
+    );
+    if($submitted){
+        if(empty($name)){
+            my_contact_form_generate_response("error", "Você não disse o seu nome!");
+        }else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            my_contact_form_generate_response("error", "Parece que esse e-mail não é válido!");
+        }else if(empty($cellphone)){
+            my_contact_form_generate_response("error", "Você não disse o seu número de celular!");
+        }else if(empty($subjectF)){
+            my_contact_form_generate_response("error", "Deixe uma mensagem para nós!");
+        }else{
+            $html = '<body style="background-color:#f5f5f5; padding: 30px;">
+              <div class="box" style="width: 70%; background-color: #fff; text-align: center; padding: 50px 0; margin: 0 auto;box-shadow: 1px 1px 4px rgba(0,0,0,.05); border-radius: 4px;">
+                <img src="https://conservar.com.br/wp-content/themes/Comit-Linhares-pela-Inova-o-master/assets/images/logo-cli-dark.png" alt="Conservar" style="height: 100px;"/>
+                <h2 style="text-align: center; margin: 20px auto;font-size: 1.3rem;font-family: \'Roboto Light\';">Formulário de Contato - CLI</h2>
+                <div class="content" style="padding: 0 50px;text-align: left;">
+                  <p><strong>Nome: </strong>'.$name.'</p>
+                  <p><strong>E-mail: </strong>'.$email.'</p>
+                  <p><strong>Celular: </strong>'.$cellphone.'</p>
+                  <p><strong>Mensagem: </strong>'.$subjectF.'</p>
+                </div>
+              </div>
+            </body>';
+            $sent = wp_mail($to, $subjectMail, $html, $headers);
+            if($sent) my_contact_form_generate_response("success", "Contato enviado com sucesso!");
+            else my_contact_form_generate_response("error", "Parece que algo deu errado. Verifique os dados e tente novamente!");
+        }
+    }

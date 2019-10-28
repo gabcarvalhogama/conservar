@@ -42,8 +42,13 @@ label{
 	border: solid 1px #36B10A;
 	padding: 8px 20px;
 	border-radius: 2px;
-	color: #FFF;
+	color: #FFF !important;
+	text-decoration: none !important;
     white-space: nowrap;
+    transition: background-color 300ms;
+    &:hover{
+    	background-color: lighten(#36B10A, 1);
+    }
 }
 
 .btn--seemore{

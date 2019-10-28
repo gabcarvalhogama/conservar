@@ -1,4 +1,9 @@
 .highlight{
 	height: 480px;
 	width: 100%;
+
+    @include media-breakpoint-down(md){
+		height: 250px;
+		background-size: 100%;
+    }
 }

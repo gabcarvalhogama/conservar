@@ -15430,8 +15430,13 @@ label {
   border: solid 1px #36B10A;
   padding: 8px 20px;
   border-radius: 2px;
-  color: #FFF;
+  color: #FFF !important;
+  text-decoration: none !important;
   white-space: nowrap;
+  transition: background-color 300ms;
+}
+.btn--cta:hover {
+  background-color: #37b60a;
 }
 
 .btn--seemore {
@@ -15533,6 +15538,14 @@ label {
   left: 5px;
   transition: 0.5s ease-in-out;
 }
+.header label[for=menu-hamburguer] {
+  display: none;
+}
+@media (max-width: 991.98px) {
+  .header label[for=menu-hamburguer] {
+    display: inline-block;
+  }
+}
 .header .hamburguer:before,
 .header .hamburguer:after {
   background: #000;
@@ -15568,17 +15581,18 @@ label {
 }
 .header input:checked ~ .header--dmenu li {
   display: block;
-}
-@media (max-width: 991.98px) {
-  .header--cta {
-    margin-top: 20px;
-    text-align: center !important;
-  }
+  margin-bottom: 10px;
 }
 
 .highlight {
   height: 480px;
   width: 100%;
+}
+@media (max-width: 991.98px) {
+  .highlight {
+    height: 250px;
+    background-size: 100%;
+  }
 }
 
 ul.tabs {
@@ -15648,6 +15662,12 @@ ul.tabs li.current {
   .portfolio--item {
     width: 50%;
     flex-basis: 50%;
+  }
+}
+@media (max-width: 575.98px) {
+  .portfolio--item {
+    width: 100%;
+    flex-basis: 100%;
   }
 }
 .portfolio--item img {

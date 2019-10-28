@@ -39,7 +39,7 @@
 							<img src="<?=get_custom_logo_url();?>" alt="<?=bloginfo('name')?>" class="header--logo" />
 						</a>
 					</div>
-					<div class="col-xl-7 col-md-12">
+					<div class="col-xl-10 col-md-12">
 						<input id="menu-hamburguer" type="checkbox">
 					    <label for="menu-hamburguer">
 					        <div class="menu">
@@ -47,16 +47,15 @@
 					        </div>
 					    </label>
 						<nav class="header--dmenu">
-							<?php
-			                    wp_nav_menu([
-			                    	"container"=>"ul",
-			                    	"menu_class"=>"ul-inline"
-			                    ]);
-			                ?>
+							<ul class="ul-inline">
+								<li><a class="anchor" href="#">Início</a></li>
+								<li><a class="anchor" href="#">Nossos serviços</a></li>
+								<li><a class="anchor" href="#">Portfolio</a></li>
+								<li><a class="anchor" href="#">Sobre</a></li>
+								<li><a class="anchor" href="#contato">Contato</a></li>
+								<li><a href="#contato" class="header--dmenu-cta btn--cta anchor">Faça orçamento</a></li>
+							</ul>
 						</nav>
-					</div>
-					<div class="col-xl-3 col-md-12 text-right pdy-1 header--cta">
-						<a href="#contato" class="btn--cta">Faça um orçamento</a>
 					</div>
 				</div>
 			</div>

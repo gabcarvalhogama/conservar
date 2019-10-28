@@ -9,4 +9,10 @@ $(document).ready(function(){
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
 	})
+
+	$(".anchor").click(function(e) {
+	    e.preventDefault();
+	    var aid = $(this).attr("href");
+	    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+	});
 })
