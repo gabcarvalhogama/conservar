@@ -40,7 +40,7 @@
 		
 		$cURLConnection = curl_init();
 
-		curl_setopt($cURLConnection, CURLOPT_URL, 'https://maps.googleapis.com/maps/api/place/details/json?key=AIzaSyDR87QeCumghgKIzTmuawR2DjlGE51XReg&fields=reviews&place_id=ChIJtWIewAUZtgARM2TNWI5EAug');
+		curl_setopt($cURLConnection, CURLOPT_URL, 'https://maps.googleapis.com/maps/api/place/details/json?key=AIzaSyDR87QeCumghgKIzTmuawR2DjlGE51XReg&fields=reviews&place_id=ChIJrb8InzMvtgAR9ijCLMuImUo');
 		curl_setopt($cURLConnection, CURLOPT_RETURNTRANSFER, true);
 
 		$reviewsList = curl_exec($cURLConnection);
