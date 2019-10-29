@@ -88,13 +88,13 @@
         }else{
             $html = '<body style="background-color:#f5f5f5; padding: 30px;">
               <div class="box" style="width: 70%; background-color: #fff; text-align: center; padding: 50px 0; margin: 0 auto;box-shadow: 1px 1px 4px rgba(0,0,0,.05); border-radius: 4px;">
-                <img src="https://conservar.com.br/wp-content/themes/Comit-Linhares-pela-Inova-o-master/assets/images/logo-cli-dark.png" alt="Conservar" style="height: 100px;"/>
-                <h2 style="text-align: center; margin: 20px auto;font-size: 1.3rem;font-family: \'Roboto Light\';">Formulário de Contato - CLI</h2>
+                <img src="http://conservar.maxdd.com.br/wp-content/themes/conservar/images/logo.png" alt="Conservar" style="height: 100px;"/>
+                <h2 style="text-align: center; margin: 20px auto;font-size: 1.3rem;font-family: \'Roboto Light\';">Formulário de Contato - Conservar</h2>
                 <div class="content" style="padding: 0 50px;text-align: left;">
                   <p><strong>Nome: </strong>'.$name.'</p>
                   <p><strong>E-mail: </strong>'.$email.'</p>
                   <p><strong>Celular: </strong>'.$cellphone.'</p>
-                  <p><strong>Mensagem: </strong>'.$subjectF.'</p>
+                  <p><strong>Sobre o que quer falar: </strong>'.$subjectF.'</p>
                 </div>
               </div>
             </body>';
