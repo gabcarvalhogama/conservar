@@ -65,7 +65,7 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $cellphone = $_POST['cellphone'];
-    $subjectF = $_POST['subjectF'];
+    $subjectF = $_POST['subject'];
     $submitted = $_POST["submitted"];
     //php mailer variables
     $to = get_option('admin_email');

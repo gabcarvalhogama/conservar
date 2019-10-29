@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="services section-padding-default">
+<section class="services section-padding-default" id="nossos-servicos">
 	<div class="container">
 		<h2 class="h2-default">Serviços de Manutenção residencial</h2>
 		<p class="text-center p-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor justo, ultricies ac lacus in, finibus pellentesque est. Cras aliquet mauris eu metus hendrerit blandit. Cras quam enim, iaculis vitae orci sit amet, imperdiet tristique elit. </p>
@@ -45,7 +45,7 @@
 		</div>
 	</div>
 </section>
-<section class="section-padding-default">
+<section class="section-padding-default" id="portfolio">
 	<div class="container">
 		<h2 class="h2-default">Portfolio</h2>
 	</div>
@@ -76,7 +76,7 @@
 		</div>
 	</div>
 </section>
-<section class="section-padding-default">
+<section class="section-padding-default" id="depoimentos">
 	<div class="container">
 		<h2 class="h2-default">O que nossos clientes dizem</h2>
 		<p class="text-center p-default">Confira depoimentos reais sobre os nossos serviços!</p>
@@ -107,7 +107,7 @@
 		<a href="" class="btn--seemore">Veja mais depoimentos!</a>
 	</div>
 </section>
-<section class="section-padding-default section-dark">
+<section class="section-padding-default section-dark" id="sobre">
 	<div class="container about">
 		<h2 class="h2-default">Sobre a Conservar</h2>
 

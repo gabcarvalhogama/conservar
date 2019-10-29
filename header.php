@@ -49,9 +49,9 @@
 						<nav class="header--dmenu">
 							<ul class="ul-inline">
 								<li><a class="anchor" href="#">Início</a></li>
-								<li><a class="anchor" href="#">Nossos serviços</a></li>
-								<li><a class="anchor" href="#">Portfolio</a></li>
-								<li><a class="anchor" href="#">Sobre</a></li>
+								<li><a class="anchor" href="#nossos-servicos">Nossos serviços</a></li>
+								<li><a class="anchor" href="#portfolio">Portfolio</a></li>
+								<li><a class="anchor" href="#sobre">Sobre</a></li>
 								<li><a class="anchor" href="#contato">Contato</a></li>
 								<li><a href="#contato" class="header--dmenu-cta btn--cta anchor">Faça orçamento</a></li>
 							</ul>

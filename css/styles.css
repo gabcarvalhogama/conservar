@@ -15592,6 +15592,8 @@ label {
   .highlight {
     height: 250px;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
