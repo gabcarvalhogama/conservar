@@ -8,6 +8,7 @@ $(document).ready(function(){
 
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
+		$('html,body').animate({scrollTop: $("#"+tab_id).offset().top},'slow');
 	})
 
 	$(".anchor").click(function(e) {
