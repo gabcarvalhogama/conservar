@@ -32,6 +32,10 @@ label{
 	margin-bottom: 0;
 }
 
+.scroll-effect
+{
+    opacity:0;
+}
 
 .form-group, .form-row{
 	margin-bottom: 1.5rem;
@@ -84,7 +88,7 @@ label{
 }
 
 .section-padding-default{
-	padding: 80px 0;
+	padding: 40px 0;
 }
 
 .section-dark{

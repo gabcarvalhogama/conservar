@@ -63,4 +63,4 @@
 			</div>
 		</header>
 
-		<div class="highlight" style="background-image: url('<?=header_image();?>')"></div>
+		<div class="highlight animated fadeIn" style="background-image: url('<?=header_image();?>')"></div>

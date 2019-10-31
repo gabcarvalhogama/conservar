@@ -1,10 +1,10 @@
 <?php get_header(); ?>
-<section class="services section-padding-default" id="nossos-servicos">
+<section class="services section-padding-default" data-aos="fade-up" id="nossos-servicos">
 	<div class="container">
 		<h2 class="h2-default">Serviços de Manutenção residencial</h2>
 		<p class="text-center p-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor justo, ultricies ac lacus in, finibus pellentesque est. Cras aliquet mauris eu metus hendrerit blandit. Cras quam enim, iaculis vitae orci sit amet, imperdiet tristique elit. </p>
 
-		<ul class="tabs">
+		<ul class="tabs" data-aos="fade-up">
 			<li class="tab-link current" data-tab="tab-1">
 				<a href="#limpeza-residencial">
 					<img src="<?=bloginfo("template_url")?>/images/brum-icon.svg" alt="Limpeza Residencial" title="Limpeza Residencial" />
@@ -45,38 +45,38 @@
 		</div>
 	</div>
 </section>
-<section class="section-padding-default" id="portfolio">
+<section class="section-padding-default" data-aos="fade-up" id="portfolio">
 	<div class="container">
 		<h2 class="h2-default">Portfolio</h2>
 	</div>
 	<div class="portfolio">
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
 		</div>
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
 		</div>
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
 		</div>
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
 		</div>
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
 		</div>
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
 		</div>
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
 		</div>
-		<div class="portfolio--item">
+		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
 		</div>
 	</div>
 </section>
-<section class="section-padding-default" id="depoimentos">
+<section class="section-padding-default" data-aos="fade-up" id="depoimentos">
 	<div class="container">
 		<h2 class="h2-default">O que nossos clientes dizem</h2>
 		<p class="text-center p-default">Confira depoimentos reais sobre os nossos serviços!</p>
@@ -107,7 +107,7 @@
 		<a href="" class="btn--seemore">Veja mais depoimentos!</a>
 	</div>
 </section>
-<section class="section-padding-default section-dark" id="sobre">
+<section class="section-padding-default section-dark" data-aos="fade-up" id="sobre">
 	<div class="container about">
 		<h2 class="h2-default">Sobre a Conservar</h2>
 
@@ -121,7 +121,7 @@
 		</div>
 
 
-		<div class="row faq">
+		<div class="row faq" data-aos="fade-left">
 			<div class="col-md-6">
 				<h3>Dúvidas Frequentes</h3>
 				<p>Separamos algumas das dúvidas frequentes para você!</p>
@@ -178,7 +178,7 @@
 
 	</div>
 </section>
-<section class="section-padding-default" id="contato">
+<section class="section-padding-default" data-aos="fade-up" id="contato">
 	<div class="container">
 		<h2 class="h2-default">Entre em contato</h2>
 
