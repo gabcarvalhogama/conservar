@@ -21,6 +21,17 @@
 	   	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<link rel="icon" type="image/jpg" href="<?=get_site_icon_url(512)?>" />
 		<link rel="stylesheet" href="<?=bloginfo("template_url")?>/css/styles.css" type="text/css" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142163455-8"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-142163455-8');
+		</script>
+
     </head>
     <body>
 		<header class="header">
