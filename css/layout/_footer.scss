@@ -21,4 +21,16 @@
             }
         }
     }
+
+    &--rights{
+        color: #8A8A8A;
+        padding-top: 30px;
+        p{
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: $primaryColor;
+        }
+    }
 }

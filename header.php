@@ -19,7 +19,7 @@
 	   	
 	   	<!-- Link Tag -->
 	   	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-		<link rel="icon" type="image/png" href="<?=get_site_icon_url(512, bloginfo("template_url").'/images/favicon.png')?>" />
+		<link rel="icon" type="image/png" href="<?=get_site_icon_url(512)?>" />
 		<link rel="stylesheet" href="<?=bloginfo("template_url")?>/css/styles.css" type="text/css" />
     </head>
     <body>

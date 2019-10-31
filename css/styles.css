@@ -15787,5 +15787,16 @@ ul.tabs li.current {
   background-color: #BF8339;
   color: #FFF;
 }
+.footer--rights {
+  color: #8A8A8A;
+  padding-top: 30px;
+}
+.footer--rights p {
+  margin: 0;
+}
+.footer--rights a {
+  text-decoration: none;
+  color: #BF8339;
+}
 
 /*# sourceMappingURL=styles.css.map */
