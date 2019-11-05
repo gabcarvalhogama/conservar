@@ -2,25 +2,26 @@
 <section class="services section-padding-default" data-aos="fade-up" id="nossos-servicos">
 	<div class="container">
 		<h2 class="h2-default">Serviços de Manutenção residencial</h2>
-		<p class="text-center p-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor justo, ultricies ac lacus in, finibus pellentesque est. Cras aliquet mauris eu metus hendrerit blandit. Cras quam enim, iaculis vitae orci sit amet, imperdiet tristique elit. </p>
+		<p class="text-center p-default">Os técnicos em manutenção e reparos residenciais da Conservar são profissionais multifuncionais, ou seja, podem atuar com qualquer reparo e manutenção predial, que compreende desde pequenas problemas hidráulicos, como troca de torneiras, registros, sifões, vazamentos, passando por elétrica, como manutenções e reparos em disjuntor, tomadas, lâmpadas, reatores e até em manutenção e reparos em alvenaria, como troca de peça de porcelanato, cerâmica, reparo em pintura, telhado e entre diversos outros.
+		Nossos serviços contam ainda com um Supervisor Técnico que acompanha o andamento do serviço para avaliar a qualidade e a satisfação do serviço solicitado. Orientando os profissionais quanto aos projetos e prazos.</p>
 
 		<ul class="tabs" data-aos="fade-up">
 			<li class="tab-link current" data-tab="tab-1">
-				<a href="#limpeza-residencial">
-					<img src="<?=bloginfo("template_url")?>/images/brum-icon.svg" alt="Limpeza Residencial" title="Limpeza Residencial" />
-					<span>Limpeza Residencial</span>
-				</a>
-			</li>
-			<li class="tab-link" data-tab="tab-2">
-				<a href="#instalacao-eletrica">
-					<img src="<?=bloginfo("template_url")?>/images/energy-switch.svg" alt="Instalação Elétrica" title="Instalação Elétrica" />
-					<span>Instalação Elétrica</span>
+				<a href="#limpeza-com-alta-pressao">
+					<img src="<?=bloginfo("template_url")?>/images/brum-icon.svg" alt="Limpeza Residencial" title="Limpeza com Alta Pressão" />
+					<span>Limpeza com alta pressão</span>
 				</a>
 			</li>
 			<li class="tab-link" data-tab="tab-3">
 				<a href="#instalacao-hidrossanitaria">
 					<img src="<?=bloginfo("template_url")?>/images/hidro-icon.svg" alt="Instalação Hidrossanitária" title="Instalação Hidrossanitária" />
 					<span>Instalação Hidrossanitária</span>
+				</a>
+			</li>
+			<li class="tab-link" data-tab="tab-2">
+				<a href="#instalacao-eletrica">
+					<img src="<?=bloginfo("template_url")?>/images/energy-switch.svg" alt="Instalação Elétrica" title="Instalação Elétrica" />
+					<span>Instalação Elétrica</span>
 				</a>
 			</li>
 			<li class="tab-link" data-tab="tab-4">
@@ -32,16 +33,20 @@
 		</ul>
 
 		<div id="tab-1" class="tab-content current">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			Uma de nossas especialidades é a limpeza profunda de superfícies com alta pressão, limpando pisos externos, rústicos e porosos, tais como os pisos de pedras portuguesas, granito não polido, fulget, cimentícios agregados, cimento bruto ou os blocos intertravados de concreto.
 		</div>
 		<div id="tab-2" class="tab-content">
-			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<p>Quem nunca passou por um problema de furar um cano acidentalmente e não saber o que fazer? Agora temos a solução, nossos encanadores são profissionais treinados para atuar com diversos problemas hidráulicos em sua residencial ou empresa.</p>
+			<p>Quando pensamos em problemas hidráulicos, normalmente lembramos de canos furados, porém reformas e instalações hidráulicos precisam ser meticulosamente realizados pois são de difícil manutenção após sua conclusão. Por isso, nossos encanadores têm anos de experiência e diversas obras entregues.</p>
 		</div>
 		<div id="tab-3" class="tab-content">
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			<p>Todos sabem o quanto é perigoso a contratação de profissionais desqualificados para fazer reformas e manutenções elétricas. Nós da Conservar disponibilizamos eletricistas qualificados e treinados para efetuar um serviço de qualidade e principalmente com garantia.</p>
+			<p>Nossos eletricistas, irão parametrizar a rede elétrica da sua empresa ou residência da forma mais precisa possível, não havendo problemas de superdimensionamento e nem subdimensionamento. Estes dois problemas numa manutenção elétrica são geralmente os motivos de acidentes de grande proporção em obras, como incêndio. Portando sempre Equipamentos de Proteção Individual, nossos eletricistas não só estão aptos a atuar com manutenção elétrica residencial, como também manutenção e reforma elétrica para empresas e industrias.</p>
 		</div>
 		<div id="tab-4" class="tab-content">
-			Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<p>As reformas residenciais sempre foram motivo de dor de cabeça para os clientes, pois precisam se preocupar, além da qualidade e confiabilidade na reforma, na segurança de deixar suas residências com pessoas sem identificação.</p>
+ 
+			<p>Acabou este problema, pois a Conservar faz sua reforma e manutenção respeitando princípios básicos para nós, como ética, organização, qualidade e agilidade. Os nossos clientes não precisam se preocupar com a segurança de suas casas, pois nossos profissionais passam por criteriosa avalição antes de serem contratados e atrelados à isto oferecemos a nossos clientes o melhor seguro de reformas e manutenção do mercado, com uma cobertura para danos materiais causados por algum incidente.</p>
 		</div>
 	</div>
 </section>
@@ -113,7 +118,8 @@
 
 		<div class="row content">
 			<div class="col-md-6 text-justify">
-				<p class="p-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor justo, ultricies ac lacus in, finibus pellentesque est. Cras aliquet mauris eu metus hendrerit blandit. Cras quam enim, iaculis vitae orci sit amet, imperdiet tristique elit. Donec tincidunt elementum aliquet. Donec condimentum sed sem et finibus. Quisque egestas, tortor egestas facilisis rutrum, nunc diam venenatis tortor, id tristique dolor massa sit amet elit. Etiam aliquet quam quis erat pretium, sit amet placerat ligula gravida. Aenean diam tellus, dignissim non vehicula eget, ultricies nec nibh.</p>
+				<p class="p-default">A Conservar vem se estabelecendo estado do Espírito Santo como uma das melhores empresas de reformas, construções e manutenções, residenciais dos Capixabas atendendo de norte a sul do estado.
+				Temos o compromisso de entregar um serviço de qualidade que supere as expectativas do cliente. Para isso, contamos com um corpo técnico qualificado, atendimento personalizado e parceria com uma das maiores seguradoras do país.</p>
 			</div>
 			<div class="col-md-6">
 				<img src="http://greatvalleyconsultants.com//wp-content/uploads/2017/04/Our-Team-1.jpg" alt="">
@@ -185,9 +191,9 @@
 		<div class="row contact">
 			<div class="col-md-6">
 				<ul>
-					<li><a href=""><i class="fas fa-phone"></i> (27) 0 0000-0000</a></li>
-					<li><a href=""><i class="fab fa-whatsapp"></i> (27) 0 0000-0000</a></a></li>
-					<li><a href=""><i class="far fa-map"></i> Av. Nome aleatorio, Centro, Linhares - ES</a></li>
+					<li><a href="tel:+5527999999999"><i class="fas fa-phone"></i> (27) 0 0000-0000</a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=5528999195491&text=Ol%C3%A1%2C%20Conservar." target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i> (28) 9 9919-5491</a></a></li>
+					<li><a href="https://www.google.com/maps/place/R.+Paineira,+659+-+Movelar,+Linhares+-+ES,+29906-120/@-19.3570343,-40.0598408,17z/data=!3m1!4b1!4m5!3m4!1s0xb62683349a6751:0x277639c43b55aa0f!8m2!3d-19.3570343!4d-40.0598408?hl=pt-BR" target="_blank" rel="nofollow"><i class="far fa-map"></i> Rua paineiras, 659, Bairro Movelar, Linhares ES</a></li>
 				</ul>
 			</div>
 			<div class="col-md-6">
@@ -211,7 +217,7 @@
 						<label for="subject">Sobre o que você quer falar? *</label>
 						<select name="subject" class="form-control" id="subject">
 							<option value="">Selecione uma opção!</option>
-							<option value="Limpeza Residencial">Limpeza Residencial</option>
+							<option value="Limpeza com alta pressão">Limpeza com alta pressão</option>
 							<option value="Instalação elétrica">Instalação elétrica</option>
 							<option value="Instalações Hidrossanitárias">Instalações Hidrossanitárias</option>
 							<option value="Reformas e pequenas construções">Reformas e pequenas construções</option>
