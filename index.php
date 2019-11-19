@@ -183,7 +183,7 @@
 		</div>
 
 	</div>
-</section
+</section>
 <section class="section-padding-default" data-aos="fade-up" id="contato">
 	<div class="container">
 		<h2 class="h2-default">Entre em contato</h2>
