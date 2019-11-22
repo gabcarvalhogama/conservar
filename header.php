@@ -38,7 +38,7 @@
 			<div class="header--top">
 				<div class="row container">
 					<div class="col-md-6 header--top-column">
-						<a href="mailto:contato@conservar.com.br">contato@conservar.com.br</a>
+						<a href="mailto:contato@conservar.casa">contato@conservar.casa</a>
 					</div>
 					<div class="col-md-6 header--top-column text-right">
 						<a href="tel:+5528999195491">(28) 9 9991-5491</a>
