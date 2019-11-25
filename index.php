@@ -194,7 +194,7 @@
 					<!-- <li><a href="tel:+5528999195491"><i class="fas fa-phone"></i> (28) 9 9991-5491</a></li> -->
 					<li><a href="https://api.whatsapp.com/send?phone=5528999751803&text=Ol%C3%A1%2C%20Conservar." target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i> (28) 9 9975-1803</a></a></li>
 
-					<li><a href="https://api.whatsapp.com/send?phone=5528999751803&text=Ol%C3%A1%2C%20Conservar." target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i> (28) 9 9975-1803</a></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=5528996043306&text=Ol%C3%A1%2C%20Conservar." target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i> (28) 9 9604-3306</a></a></li>
 
 					<li><a href="https://www.google.com/maps/place/R.+Paineira,+659+-+Movelar,+Linhares+-+ES,+29906-120/@-19.3570343,-40.0598408,17z/data=!3m1!4b1!4m5!3m4!1s0xb62683349a6751:0x277639c43b55aa0f!8m2!3d-19.3570343!4d-40.0598408?hl=pt-BR" target="_blank" rel="nofollow"><i class="far fa-map"></i> Rua paineiras, 659, Bairro Movelar, Linhares ES</a></li>
 				</ul>
