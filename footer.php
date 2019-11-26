@@ -3,7 +3,7 @@
                 <img src="<?=get_custom_logo_url();?>" alt="<?=bloginfo('name')?>" class="header--logo" />
                 <div class="footer--social">
                     <ul class="ul-inline">
-                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/conservar.casa/?igshid=10mbzlqevp1l6"><i class="fab fa-instagram"></i></a></li>
                         <li><a href=""><i class="fab fa-facebook"></i></a></li>
                     </ul>
                 </div>
