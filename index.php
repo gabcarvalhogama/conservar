@@ -127,7 +127,7 @@
 		</div>
 
 
-		<div class="row faq" data-aos="fade-left">
+		<!-- <div class="row faq" data-aos="fade-left">
 			<div class="col-md-6">
 				<h3>Dúvidas Frequentes</h3>
 				<p>Separamos algumas das dúvidas frequentes para você!</p>
@@ -180,7 +180,7 @@
 				</div>
 
 			</div>
-		</div>
+		</div> -->
 
 	</div>
 </section>
