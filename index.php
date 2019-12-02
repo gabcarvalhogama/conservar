@@ -196,7 +196,7 @@
 
 					<li><a href="https://api.whatsapp.com/send?phone=+5527996043306&text=Ol%C3%A1%2C%20Conservar." target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i> (27) 9 9604-3306</a></a></li>
 
-					<li><a href="https://www.google.com/maps/place/R.+Paineira,+659+-+Movelar,+Linhares+-+ES,+29906-120/@-19.3570343,-40.0598408,17z/data=!3m1!4b1!4m5!3m4!1s0xb62683349a6751:0x277639c43b55aa0f!8m2!3d-19.3570343!4d-40.0598408?hl=pt-BR" target="_blank" rel="nofollow"><i class="far fa-map"></i>Linhares - ES</a></li>
+					<li><a href="https://www.google.com/maps/place/Linhares+-+ES,+29906-120,17z/data=!3m1!4b1!4m5!3m4!1s0xb62683349a6751:0x277639c43b55aa0f!8m2!3d-19.3570343!4d-40.0598408?hl=pt-BR" target="_blank" rel="nofollow"><i class="far fa-map"></i>Linhares - ES</a></li>
 				</ul>
 			</div>
 			<div class="col-md-6">
