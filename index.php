@@ -56,7 +56,12 @@
 	</div>
 	<div class="portfolio">
 		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
+			<!-- <img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" /> -->
+
+			<picture>
+				<source srcset="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.webp" type="image/webp">
+				<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="">
+			</picture>
 		</div>
 		<div class="portfolio--item" data-aos="fade-up">
 			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
