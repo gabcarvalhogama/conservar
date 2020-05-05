@@ -55,30 +55,7 @@
 		<h2 class="h2-default">Portfolio</h2>
 	</div>
 	<div class="portfolio">
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
-		</div>
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
-		</div>
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
-		</div>
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
-		</div>
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
-		</div>
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
-		</div>
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-1.png" alt="" />
-		</div>
-		<div class="portfolio--item" data-aos="fade-up">
-			<img src="<?=bloginfo("template_url")?>/images/placeholder-portfolio-2.png" alt="" />
-		</div>
+		<?php echo do_shortcode('[instagram-feed num=8 cols=4 showfollow=false]'); ?>
 	</div>
 </section>
 <section class="section-padding-default" data-aos="fade-up" id="depoimentos">
