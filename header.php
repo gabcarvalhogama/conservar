@@ -15,7 +15,7 @@
         <meta name="theme-color" content="#bf8339">
 	
 		
-		<?php get_opengraph(); ?>
+		<!-- <?php get_opengraph(); ?> -->
 	   	
 	   	<!-- Link Tag -->
 	   	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -32,6 +32,8 @@
 		  gtag('config', 'UA-142163455-8');
 		</script>
 
+
+		<?php get_head(); ?>
     </head>
     <body>
 		<header class="header">
