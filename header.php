@@ -33,7 +33,7 @@
 		</script>
 
 
-		<?php get_head(); ?>
+		<?php wp_head(); ?>
     </head>
     <body>
 		<header class="header">
